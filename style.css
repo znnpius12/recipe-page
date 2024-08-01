@@ -1,0 +1,128 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Young Serif', serif;
+    font-weight: 400; /* Standard weight */
+    font-style: normal;
+    line-height: 1.6;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    font-family:  serif;
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+}
+.attribution{
+    width: fit-content;
+    margin: auto;
+}
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+h1{
+    font-size: 60px;
+}
+p{
+    color: hsl(24, 5%, 18%);
+}
+.prep_time{
+    color: hsl(332, 51%, 32%);
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px;
+    border-radius: 10px;
+}
+li{
+    color: hsl(30, 10%, 34%);
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+span{
+    font-weight: 1000;
+}
+h2{
+    color: hsl(14, 45%, 36%);
+    font-size: 50px;
+}
+hr{
+    background-color: hsl(14, 45%, 36%);
+}
+
+table th {
+    border: none; /* Removes the top border */
+    border-bottom: 1px solid #ddd; /* Adds a bottom border to separate rows */
+    text-align: left; /* Aligns text to the left */
+    padding: 0px 0px 0px 19px;
+}
+
+/* Ensure table data cells have borders */
+table td {
+    border: none; /* Removes all borders */
+    border-bottom: 1px solid #ddd; /* Adds a bottom border */
+    padding: 8px; /* Adds some padding inside each cell for better readability */
+    text-align: left; /* Aligns text to the left */
+    color:hsl(14, 45%, 36%); /* Sets the text color */
+}
+
+/* Remove bottom border from the last row */
+table tr:last-child td {
+    border-bottom: none; /* Removes the bottom border from the last row */
+}
+/* Remove bottom border from the last row */
+table tr:last-child th {
+    border-bottom: none; /* Removes the bottom border from the last row */
+}
+
+/* Responsive Design */
+@media (max-width: 375px) {
+    body {
+        padding: 10px;
+    }
+   .container {
+        padding: 10px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    p{
+        font-size: 15px;
+    }
+    li{
+        font-size: 15px;
+    }
+    table{
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width: 376px) and (max-width: 1024px) {
+    body {
+        padding: 15px;
+    }
+   .container {
+        padding: 15px;
+    }
+    h1{
+        font-size: 45px;
+    }
+    h2{
+        font-size: 35px;
+    }
+
+}
+
+@media (min-width: 1025px) {
+    body {
+        padding: 20px;
+        background: hsl(30, 54%, 90%);
+
+    }
+   .container {
+        padding: 20px;
+    }
+}
